@@ -1,0 +1,232 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(207, 201, 201);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(115, 155, 155);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav ul a{
+    color: black;
+    margin-inline: 23px;
+    text-decoration: none;
+}
+.logo h1{
+    padding-left: 55px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 28px;
+    border: none;
+}
+nav .btn:hover{
+    color: maroon;
+    cursor: pointer;
+}
+nav ul{
+    margin-right: 25px;
+}
+nav ul a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.h{
+    color: red;
+}
+
+.main{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 110px;
+}
+.maintext{
+    margin-left: 45px;
+}
+.maintext h1{
+    font-size: 3.6rem;
+}
+.maintext h3{
+    font-size: 2rem;
+    color: rgb(15, 83, 83);
+}
+.maintext p{
+    font-size: 1.2rem;
+}
+.maintext button{
+    background-color: red;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+    font-size: 21px;
+}
+.main img{
+    margin-right: 300px;
+}
+.head{
+    text-align: center;
+    margin-top: 45px;
+    padding: 55px;
+}
+.head span{
+    color: rgb(6, 161, 161);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .trend{
+    width: 280px;
+    background-color: #fff;
+    margin-inline: 22px;
+}
+.trend img{
+    width: 100%;
+    height: 300px;
+}
+.trend .card-text{
+    padding: 10px;
+}
+.trend i{
+    color: orange;
+    font-size: 22px;
+}
+.trend button{
+    color: white;
+    background-color: red;
+    border-radius: 22px;
+    padding: 8px;
+    border: none;
+    margin-left: 33px;
+    font-size: 12px;    
+}
+.card .trend:hover{
+    color: white;
+    background-color: grey;
+    width: 294px;
+    transition: 0.6s ease;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+}
+.blogCard{
+    display: flex;
+    background-color: #fff;
+    margin-inline: 22px;
+    width: 500px;
+    height: 230px;
+    padding: 20px;
+}
+.blogCard img{
+    width: 44%;
+}
+.blogText{
+    padding-left: 27px;
+    text-align: center;
+}
+.blogText a{
+    background-color: red;
+    color: white;
+    border: none;
+    text-decoration: none;  
+    padding: 5px;
+}
+.blogCard:hover{
+    width: 520px;
+    transition: 0.7s ease;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+}
+.customer .review{
+    width: 280px;
+    background-color: #fff;
+    padding: 24px;
+    margin-inline: 23px;
+}
+.review img{
+    width: 44%;
+    border-radius: 50%;
+    margin-left: 75px;
+}
+.review i{
+    color: orange;
+    font-size: 22px;
+}
+.contactPage{
+    border: 4px solid rgb(2, 129, 129);
+    text-align: center;
+    padding: 44px;
+    width: 500px;
+    margin-left: 30%;
+}
+.contactPage input{
+    width: 400px;
+    padding: 9px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 11px;
+}
+.contactPage button{
+    color: white;
+    background-color:rgb(2, 129, 129); 
+    text-decoration: none;
+    width: 140px;
+    height: 37px;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+    margin-bottom: 17px;
+}
+.contactPage button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+
+.loginPage{
+    display: none;
+    background-color: #fff;
+    text-align: center;
+    width: 190px;
+    padding: 22px;
+    position: absolute;
+    margin-left: 81%;
+    top: 10%;
+}
+.loginPage input{
+    width: 166px;
+    padding: 4px;
+    border: 2px solid rgb(2, 129, 129);
+    margin-top: 7px;
+}
+.loginPage button{
+    margin-top: 13px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(215, 7, 7);
+}

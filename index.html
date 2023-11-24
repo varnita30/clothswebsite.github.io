@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Shopping Cart</h1>
+            </div>
+            <ul>
+                <a class="h" href="#">HOME</a>
+                <a id="cloths" href="#cloth">CLOTHS</a>
+                <a id="blogs" href="#blog">BLOGS</a>
+                <a id="reviews" href="#review">REVIEWS</a>
+                <a id="contacts" href="#contact">CONTACT US</a>
+                <button id="login" class="btn">LogIn</button>
+            </ul>
+        </nav>
+        <!--login In-->
+        <div class="loginPage">
+            <input type="text" placeholder="Enter Email" id="email">
+            <input type="password" placeholder="Enter password" id="pass"> 
+            <button id="logged">LogIn</button>
+        </div>
+
+        <!-----main-->
+        <div class="main">
+            <div class="maintext">
+                <h1>Great Deals exciting offers</h1>
+                <h3>Save upto 30% off</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio doloremque exercitationem<br> beatae
+                    accusantium delectus doloribus recusandae deleniti excepturi modi
+                </p>
+                <button>Explore</button>
+            </div>
+            <img src="images/purpose-ecommerce-websites.png">
+        </div>
+        <!---Women cloths-->
+        <div class="cloth" id="cloth">
+            <div class="head">
+                <h1>Trending Women <span>Tops</span></h1>
+            </div>
+            <div class="card">
+                <div class="trend">
+                    <img src="images/1.jpg">
+                    <div class="card-text">
+                        <p>Trending Tops</p>
+                        <h2>$10 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="images/2.webp">
+                    <div class="card-text">
+                        <p>Trending Tops</p>
+                        <h2>$30 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="images/3.webp">
+                    <div class="card-text">
+                        <p>Trending Tops</p>
+                        <h2>$37 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Men cloths-->
+        <div class="cloth" id="cloth">
+            <div class="head">
+                <h1>Trending Men <span>T-Shirts</span></h1>
+            </div>
+            <div class="card">
+                <div class="trend">
+                    <img src="images/m1.webp">
+                    <div class="card-text">
+                        <p>Trending T-Shirts</p>
+                        <h2>$24 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="images/m2.jpg">
+                    <div class="card-text">
+                        <p>Trending T-Shirts</p>
+                        <h2>$19 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="trend">
+                    <img src="images/m3.jpg">
+                    <div class="card-text">
+                        <p>Trending T-Shirts</p>
+                        <h2>$40 only</h2>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--read-->
+        <div class="read" id="blog">
+            <div class="head">
+                <h1>Read <span>Blog's</span></h1>
+            </div>
+            <div class="blog">
+                <div class="blogCard">
+                    <img src="images/read1.png">
+                    <div class="blogText">
+                        <h2>Girls Trending Dress</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <img src="images/read2.jpg">
+                    <div class="blogText">
+                        <h2>Boys Trending Dress</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--rewiews-->
+        <div class="review" id="review">
+            <div class="head">
+                <h1>Customer <span>Reviews</span></h1>
+            </div>
+            <div class="customer">
+                <div class="review">
+                    <img src="images/r4.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis perspiciatis dicta, officia
+                        incidunt eveniet sequi</p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="review">
+                    <img src="images/r3.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis perspiciatis dicta, officia
+                        incidunt eveniet sequi</p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="review">
+                    <img src="images/r2.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio omnis perspiciatis dicta, officia
+                        incidunt eveniet sequi</p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+
+        <!---contact US-->
+        <div class="contact" id="contact">
+            <div class="head">
+                <h1>Contact <span>Us</span></h1>
+            </div>
+            <div class="contactPage">
+                <input type="text" placeholder="Enter you name" id="name"><br>
+                <input type="password" placeholder="Enter strong password" id="passw"><br>
+                <input type="text" placeholder="Any message" id="mess"><br>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="text">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Dolores vero ex, praesentium maxime
+                    atque inventore!<br> Culpa corrupti har</p>
+            </div>
+            <div class="text">
+                <h2>Product</h2>
+                <p>Our Design</p>
+                <p>Theme</p>
+                <p>Quality</p>
+                <p>Best Price</p>
+            </div>
+            <div class="text">
+                <h2>Quality</h2>
+                <p>Focus</p>
+                <p>Customer</p>
+                <p>Review</p>
+                <p>Offer</p>
+            </div>
+            <div class="text">
+                <h2>Address</h2>
+                <p>Tower A</p>
+                <p>sector 100</p>
+                <p>Noida</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
